@@ -3,10 +3,63 @@
   <head>
     <meta charset="utf-8">
     <title>Game of Thrones</title>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src='./script.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
   <body>
+    <div class="row first">
 
+      <img src="https://vignette.wikia.nocookie.net/gameofthronesfanon/images/b/b5/Logo_Game_of_Thrones.png/revision/latest?cb=20160808184321" alt="" class="GOTheader">
+
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-5">
+
+        <form class="" action="index.html" method="post">
+
+        <input type="text" name="charNum" placeholder="Add three numbers" autofocus>
+
+        <button type="button" name="button" id="myBtn">Characters</button>
+
+      </form>
+
+        <h1 id="gotNames"> </h1>
+        <h3 id="gotTitles"></h3>
+        <h3 id="gotSpouse"></h3>
+
+
+
+      </div>
+      <div class="col-5">
+
+
+
+          <form class="" action="index.html" method="post">
+
+            <input type="text" name="houses" placeholder="Add two numbers">
+
+            <button type="button" name="button" id="houseBtn">Houses</button>
+
+          </form>
+
+            <h1 id="houseName"></h1>
+            <h3 id="region"></h3>
+            <h3 id="leader"></h3>
+            <h3 id="heir"></h3>
+
+
+
+      </div>
+      <div class="col-1"></div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js">
+    </script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src='./script.js'></script>
   </body>
 </html>

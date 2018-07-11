@@ -1,0 +1,25 @@
+body {
+  background-image: url('https://images.pexels.com/photos/700971/pexels-photo-700971.jpeg?cs=srgb&dl=battle-board-board-game-700971.jpg&fm=jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .9;
+}
+
+.first {
+  height: 350px;
+}
+input {
+  width: 270px;
+}
+ button {
+   width: 150px;
+ }
+
+.row {
+  font-family: 'Fredericka the Great', cursive;
+  color: rgb(239,239,239);
+}
+
+form {
+  margin-bottom: 20px;
+}
